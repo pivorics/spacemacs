@@ -16,6 +16,13 @@
 ;; lower value in your dotfile (function `dotspacemacs/user-config')
 (setq gc-cons-threshold 100000000)
 
+(setq-default sp-escape-quotes-after-insert nil)
+
+(add-to-list 'display-buffer-alist
+             `(,(rx bos "*shell*")
+               display-buffer-same-window))
+
+
 (defconst spacemacs-version         "0.200.13" "Spacemacs version.")
 (defconst spacemacs-emacs-min-version   "24.4" "Minimal version of Emacs.")
 
