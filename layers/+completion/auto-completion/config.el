@@ -26,7 +26,7 @@ Possible values are `complete', `cycle' or `nil'.")
   "Provide a key sequence (string) to complete the current
 selection.")
 
-(defvar auto-completion-complete-with-key-sequence-delay 0.1
+(defvar auto-completion-complete-with-key-sequence-delay 0
   "Timeout (seconds) when waiting for the second key of
 `auto-completion-complete-with-key-sequence'.")
 
